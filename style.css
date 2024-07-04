@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 10vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+}
+.navbar-parent-div {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-flex-div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.Sharply-demo {
+  font-size: x-large;
+  color: gray;
+}
+
+.hero-section {
+  height: 100vh;
+  background-image: url(nature.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-section h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 100px;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: large;
+}
+
+.hero-button-flex {
+  display: flex;
+}
+
+.btn-read {
+  width: 100px;
+  height: 30px;
+  border-color: transparent;
+  background-color: blueviolet;
+  border-style: solid;
+  color: white;
+}
+
+.btn-download {
+  width: 150px;
+  height: 30px;
+}
+
+.friendly {
+  height: 100vh;
+}
+.flex-friendly {
+  display: flex;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+  gap: 300px;
+}
+.images__31_-removebg-preview.png {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image {
+  width: 50%;
+}
+.write {
+  width: 50%;
+}
+.seo-friendly-p {
+  color: gray;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: large;
+}
+.button-seo {
+  width: 100px;
+  height: 20px;
+  background-color: blueviolet;
+  border-color: transparent;
+  color: white;
+  text-transform: uppercase;
+}
+
+.portfolio-container {
+  height: 150vh;
+  background-color: rgb(250, 248, 248);
+  padding-top: 100px;
+}
+.portfolio-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portifolio-text-h1 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.portfolio-text {
+  width: 50%;
+  margin-left: 30px;
+}
+.portfolio-text-p {
+  color: gray;
+  margin-bottom: 30px;
+}
+.see-it-in-action {
+  background-color: blueviolet;
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-color: transparent;
+}
+.parallax-image {
+  background-image: url(download.jpg);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  display: list-item;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+}
+.parallax-h1 {
+  margin-bottom: 30px;
+  font-size: 400%;
+}
+.parallax-p {
+  text-align: center;
+  width: 50%;
+  margin-left: 300px;
+  margin-bottom: 30px;
+}
+.parallax-button {
+  background-color: blueviolet;
+  color: white;
+  height: 50px;
+  width: 200px;
+  text-transform: uppercase;
+  border-color: transparent;
+}
+.limitless-parent-div {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+  gap: 20px;
+}
+.limitless {
+  margin-bottom: 30px;
+  font-size: xx-large;
+}
+.limitless-text {
+  margin-bottom: 30px;
+  color: rgb(184, 180, 180);
+  width: 50%;
+  margin-left: 350px;
+}
+.download {
+  background-color: blueviolet;
+  color: white;
+  height: 50px;
+  width: 150px;
+  border-color: transparent;
+}
+.photo-div {
+  padding-top: 30px;
+  margin-left: 80px;
+}
+.photo-1440557653082-e8e186733eeb-1.jpg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+/* project starts here */
+/* .project-div {
+  background-color: rgb(1, 1, 15);
+  height: 180vh;
+}
+.sub-project-div {
+  justify-content: center;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+}
+.our-latest-projects {
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+.project-text {
+}
+.flex-project {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+.parent-pro {
+  background-color: black;
+  height: 200vh;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.div-h2 {
+  margin-bottom: 20px;
+}
+.div-p {
+}
+.project-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.project-flex div {
+  width: calc(100% / 4);
+}
+.project-flex div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.customer-container {
+  background-image: url(valley-of-gods-john-mueller.jpg);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  object-fit: cover;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: list-item;
+  padding-top: 100px;
+}
+.What-Our-Customer-Say {
+  margin-bottom: 30px;
+}
+.customer-text {
+  width: 80%;
+  padding-left: 100px;
+}
+/* @media (max-width: 836px) {
+  .flex-friendly {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+} */
